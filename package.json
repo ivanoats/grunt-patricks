@@ -1,0 +1,42 @@
+{
+  "name": "grunt-patricks",
+  "description": "Adds a special message for St. Patrick's day",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ivanoats/grunt-patricks",
+  "author": {
+    "name": "Ivan Storck",
+    "email": "ivanoats@gmail.com",
+    "url": "http://ivanoats.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ivanoats/grunt-patricks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ivanoats/grunt-patricks/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ivanoats/grunt-patricks/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
